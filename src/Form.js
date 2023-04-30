@@ -5,6 +5,7 @@ function Form() {
     <div>
         <form>
             <div id='form-div'>
+              log in to Facebook
             <input placeholder='Email Address or Phone number' ></input> <br></br>
             <input  placeholder='Password'  type='password'></input> <br></br>
             <button id='btt-login'>Log in</button> <br></br>
@@ -15,7 +16,7 @@ function Form() {
             </div>
         
         </form>
-        <div id='last-para'> <b>Create a Page</b> for a celebrity, brand or business.</div>
+        <div id='last-para'> <b><a href='#' id='last-link' >Create a Page</a></b> for a celebrity, brand or business.</div>
     </div>
   )
 }
